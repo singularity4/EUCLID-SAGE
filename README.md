@@ -1,6 +1,6 @@
 # EUCLID-SAGE: A benchmark suite for strong gravitational lens discovery
 
-![EUCLID-SAGE](SAGE_cover.png)
+![EUCLID-SAGE](image.png)
 
 EUCLID-SAGE is a benchmark suite for discovery of strong gravitational lenses in real *Euclid* images. 
 Each benchmark is a set of image stamps from the *Euclid* Quick Data Release 1 (Q1), labelled **lens (1)** 
