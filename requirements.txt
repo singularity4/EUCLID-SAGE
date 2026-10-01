@@ -1,0 +1,11 @@
+# Using the benchmarks (loading and evaluation)
+numpy
+pandas
+scipy
+astropy
+# Rebuilding the benchmarks from the Euclid archive, and display pictures
+astroquery>=0.4.11
+pyvo
+Pillow
+# Versions used to build the published benchmarks (Python 3.12):
+# numpy 2.5.3, pandas 3.0.6, scipy 1.18.1, astropy 8.0.1, astroquery 0.4.11, pyvo 1.9.1, Pillow 12.3.0
