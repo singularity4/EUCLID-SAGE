@@ -6,7 +6,8 @@ EUCLID-SAGE is a benchmark suite for discovery of strong gravitational lenses in
 Each benchmark is a set of image stamps from the *Euclid* Quick Data Release 1 (Q1), labelled **lens (1)** 
 or **non-lens (0)**. The lenses are the expert-graded lens candidates of the Euclid Q1 Strong Lensing 
 Discovery Engine; the non-lenses are drawn from the official Euclid Q1 catalogues with three sampling rules.
-The benchmark suite measures how well a model or human separates lenses from non-lenses, including when 
+
+The benchmark suite evaluates how well a model or human separates lenses from non-lenses, including when 
 simple properties of the central galaxy such as brightness, galaxy type, size and roundness are controlled.
 
 ## The benchmarks
@@ -43,8 +44,6 @@ corresponding 10k lists.
 | Zero point | `MAGZERO` = 24.6: AB magnitude = -2.5 log10(value) + 24.6 |
 | Centring | the stamp centre is the pixel containing the catalogue position (within 0.05 arcsec) |
 | Header | WCS, `BUNIT`, `MAGZERO`, `TILEIDX`, `MOSAIC`, `OBJTYPE` (lens / nonlens); lenses: `LENSID`, `GRADE`, `PHZLABEL`; non-lenses: `OBJECTID`, `PHZLABEL` |
-
-Every stamp is complete: stamps with pixels outside the survey mosaics were never included.
 
 **Benchmark tables** (`benchmarks/EUCLID-SAGE-<size>-<type>_VIS.csv`), one row per stamp:
 
