@@ -116,8 +116,7 @@ archive. Run the scripts from a data folder (or set `EUCLID_SAGE_DATA_DIR`):
 | 6 | `scripts/package_release.py --destination <folder>` | copies tables, stamps, reports and checksums
 | - | `scripts/render_euclid_previews.py` | display pictures (arcsinh and MTF, as used by the Euclid lens search)
 
-Every step, decision and intermediate result is documented in [`docs/DESIGN.md`](docs/DESIGN.md);
-the dataset documentation follows the datasheet format in [`DATASHEET.md`](DATASHEET.md).
+Benchmark design is described in [`docs/DESIGN.md`](docs/DESIGN.md); with dataset documentation in [`DATASHEET.md`](DATASHEET.md).
 
 ## Verification
 
@@ -133,7 +132,7 @@ lens candidates of the catalogue, and matched property distributions for S and D
 
 ## Citation
 
-If you use EUCLID-SAGE, please cite the accompanying paper (in preparation):
+If you use EUCLID-SAGE, please cite the Zenodo DOI of accompanying paper (in preparation):
 
 > *EUCLID-SAGE: A Benchmark Suite and U-Net for Strong Gravitational Lens Discovery.*
 
