@@ -108,7 +108,7 @@ archive. Run the scripts from a data folder (or set `EUCLID_SAGE_DATA_DIR`):
 
 | Step | Script | What it does | Time |
 |---|---|---|---|
-| 1 | `scripts/check_labels_and_properties.py` | Euclid label and catalogue values of the lenses
+| 1 | `scripts/lens_catalogue_properties.py` | Euclid label and catalogue values of the lenses
 | 2 | `scripts/select_nonlenses.py` | the lenses and the ordered R and S non-lens lists
 | 3 | `scripts/select_nonlenses_D.py` | the ordered D non-lens list
 | 4 | `scripts/build_vis_benchmarks.py --types R S D` | downloads and cuts all stamps, writes the tables
