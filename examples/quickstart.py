@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 r"""
-quickstart.py - load EUCLID-SAGE benchmark and evaluate a (trivial) score
+quickstart.py - load EUCLID-SAGE benchmark and evaluate a placeholder score
 
 Run from the repository folder:
     python examples/quickstart.py
