@@ -45,7 +45,7 @@ Two archive column descriptions differ from the data and from the Data Product D
 - Properties of the lens systems (median, 5th-95th percentile): VIS magnitude 20.74 (18.8-22.3);
   segmentation area 1,222 pixels (321-6,911); Sersic index 3.5 (0.6-5.5); Sersic radius 1.1 (0.5-4.0);
   ellipticity 0.22 (0.06-0.51). Catalogue values of lens systems include the light of their arcs.
-- Script: `check_labels_and_properties.py` (writes `lens_catalogue_properties.csv`).
+- Script: `lens_catalogue_properties.py` (writes `lens_catalogue_properties.csv`).
 
 ## 4. Stamp format
 
@@ -209,4 +209,3 @@ Pillow 12.3.0.
   lenses with machine learning*, A&A (Euclid Q1 special issue).
 - Euclid Collaboration: Aussel, H., et al. 2026, *Euclid Quick Data Release (Q1) - Data release overview*.
 - Euclid Q1 Data Product Description Document: https://euclid.esac.esa.int/dr/q1/dpdd/
-- Gebru, T., et al. 2021, *Datasheets for Datasets*, Communications of the ACM 64, 86.
