@@ -20,7 +20,7 @@ simple properties of the central galaxy such as brightness, galaxy type, size an
 
 All three benchmarks share the same 487 lenses and differ only in their non-lenses. Larger versions 
 with 9,513 non-lenses per type (`EUCLID-SAGE-10k-{R,S,D}_VIS`, about 5% lenses) are built with the same
-code and are intended for an archived data release; the 1k non-lenses are the first entries of the
+code for an archived data release; the 1k non-lenses are the first entries of the
 corresponding 10k lists.
 
 - **R (random):** objects drawn at random from all Q1 objects with a Euclid classification (star,
